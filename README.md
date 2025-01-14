@@ -1,4 +1,4 @@
-# Majorro.Utils
+# Majorro.Common
 Some common things I want to share between projects
 
-TODO: builds to selfhosted nuget
+TODO: builds to nuget
