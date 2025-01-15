@@ -5,6 +5,13 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+    
+    <PropertyGroup>
+        <PackageId>Majorro.Common</PackageId>
+        <Version>1.0.1</Version>
+        <Authors>majorro</Authors>
+        <Description>Some common things I want to share between projects</Description>
+    </PropertyGroup>
 
     <ItemGroup>
       <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
@@ -20,7 +27,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include=".github\workflows\publish.yml" />
+      <Content Include=".github\workflows\publish.yml">
+          <Pack>False</Pack>
+      </Content>
     </ItemGroup>
 
 </Project>
