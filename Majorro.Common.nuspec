@@ -8,4 +8,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Some common things I want to share between projects</description>
     </metadata>
+    <files>
+        <file src="**\*" target="lib" exclude=".github\**\*" />
+    </files>
 </package>
